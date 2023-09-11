@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+
+nav ul li {
+  list-style: none;
+}
+.hero-section{
+    background-color: aquamarine;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+}
+.hero-section h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
