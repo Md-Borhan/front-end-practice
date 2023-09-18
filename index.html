@@ -10,19 +10,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#">LOGO</a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+    <section class="py-3 bg-corn text-red text-center">
+      <p>This is alert!!!</p>
+    </section>
+    <header class="flex justify-between items-center bg-aqua">
+      <a href="#">LOGO</a>
+      <div class="">
+        <nav>
+          <ul class="flex gap-5">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <button>Action button</button>
+      </div>
     </header>
-    <main>
-      <section class="hero-section">
+    <section>
+      <nav class="flex gap-5 py-2">
+        <a href="#">Services</a>
+        <a href="#">Services</a>
+        <a href="#">Services</a>
+      </nav>
+    </section>
+    <main class="flex">
+      <section class="bg-corn" style="width: 400px">
+        <hr />
+        <nav class="gap-3 py-2 flex flex-col items-center">
+          <a href="#">Services</a>
+          <a href="#">Services</a>
+          <a href="#">Services</a>
+        </nav>
+      </section>
+      <section
+        class="hero-section flex flex-col items-center justify-center text-center"
+      >
         <h1>this is the first project.</h1>
         <p>
           Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing
@@ -31,31 +56,25 @@
           nihil temporibus exercitationem est vero?
         </p>
       </section>
-      <section>
-        <form action="">
-          <fieldset>
-            <input type="text" placeholder="Type your name" />
-            <input type="email" placeholder="Type your email" />
-          </fieldset>
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Type your message"
-          ></textarea>
-          <button style="background-color: brown" type="submit">Submit</button>
-        </form>
+      <section class="bg-corn" style="width: 400px">
+        <hr />
+        <nav class="gap-3 py-2 flex flex-col items-center">
+          <a href="#">Services</a>
+          <a href="#">Services</a>
+          <a href="#">Services</a>
+        </nav>
       </section>
     </main>
-    <footer>
+    <footer class="flex justify-between items-center bg-aqua py-3">
       <a href="#">Logo</a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <nav>
+        <ul class="flex justify-center items-center gap-5">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
